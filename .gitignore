@@ -1,0 +1,8 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+
+echo "/*" > .gitignore
+echo "!/app/" >> .gitignore
+echo "!/public/" >> .gitignore
+echo "app/node_modules/" >> .gitignore
+echo "public/cache/" >> .gitignore
