@@ -2,7 +2,6 @@ import Image from "next/image";
 import iconGithub from "/public/github-mark-white.svg";
 import profilPict from "/public/profil-pict.jpg";
 
-
 export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
@@ -11,6 +10,11 @@ export default function Home() {
         <p className="text-xl text-slate-400">Set up <em>Tailwind</em> with <em>Next JS</em> to understand how the default values of Tailwind font load and work.</p>
         <p className="text-base text-slate-100 bg-slate-700 p-4 rounded-md	">This challenge came up afer I encounter a problem loading Tailwind typography while working on my first app with Next JS, combining Tailwind with <a className="text-amber-200 underline underline-offset-4 hover:text-slate-100 hover:no-underline focus:outline-none focus:ring focus:ring-amber-200" href="https://daisyui.com/docs/layout-and-typography/">DaisyUI</a>
         </p>
+
+        <div className="mt-20 w-full">
+          <h2 className="text-4xl mb-8">Value Ratio rem/px</h2>
+          <p>1 rem = 16px</p>
+        </div>
 
         <div className="mt-20 w-full">
           <h2 className="text-4xl mb-8">Headings — Tailwind default values</h2>
