@@ -4,5 +4,5 @@
 echo "/*" > .gitignore
 echo "!/app/" >> .gitignore
 echo "!/public/" >> .gitignore
-echo "app/node_modules/" >> .gitignore
+echo "node_modules/" >> .gitignore
 echo "public/cache/" >> .gitignore
