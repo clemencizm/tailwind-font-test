@@ -1,0 +1,13 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+
+# Ignore everything by default
+/*
+
+# Allow 'app' and 'public' folders
+!/app/
+!/public/
+!.gitignore
+
+# Ignore node_modules
+node_modules/
